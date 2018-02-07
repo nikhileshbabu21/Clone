@@ -10,8 +10,8 @@
 <style>
 	h4 {
 		font-size: 16px;
-		color: green;
-		border: dashed 2px red;
+		color: blue;
+		border: dashed 2px yellow;
 	}
 </style>
 
@@ -20,7 +20,7 @@
 <jsp:useBean id="obj" class="com.marlabs.demo.Test" />
 <h4>
 <%
-	out.println("Hello!");
+	out.println("HI Hello!");
 	out.println(obj.getData());
 %>
 </h4>
